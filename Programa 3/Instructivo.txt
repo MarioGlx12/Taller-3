@@ -1,0 +1,50 @@
+Guia de ejecución del programa 3
+
+
+1. Ejecutar las librerias.
+
+Es fundamental ejecutar las funciones para el correcto funcionamiento del programa
+
+2. Ejecutar las funciones de cada distribución.
+
+Cada distribución se halla en funciones con sus respectivos nombres, es necesario 
+ejecutarlas para emplearlas posteriormente.
+
+3. Ejecutar la función main.
+
+En esta función se hallá el menú necesario para el manejo del programa y al ejecutarla
+se despliega el siguiente menú:
+
+   Opcion (1): Graficar la función de densidad de una distribución uniforme.
+
+          Esta opción se ingresan el valor maximo y minimo y se emplean como parametros
+          en la función uniforme la cual nos grafica la función de densidad de dicha 
+          distribución.
+
+
+   Opcion (2): Graficar la función de densidad de una distribución Bernoulli.
+
+       Esta opción nos pide ingresar un valor de probabilidad, el cual luego verificará
+       si es valido, y en caso de que dicha probalidad sea valida nos gráfica la
+       función de densidad de dicha distribución.
+
+
+   Opcion (3): Graficar la función de densidad de una distribución Poisson.
+
+       Esta opción nos pide ingresar un número de eventos el cual luego será verificado,
+       y si es aceptado nos graficará la función de densidad de dicha distribución.
+
+
+   Opcion (4): Graficar la función de densidad de una distribución Exponencial.
+
+       Esta opción nos pide ingresar una tasa de ocurrencia de eventos la cual luego será 
+       verificada, y si es aceptado nos graficará la función de densidad de dicha distribución.
+
+   Opcion (5): Volver a mostrar el menú.
+        
+       Esta opción permite visualizar nuevamente las opciones del menú.
+
+   Opcion (6): Salir.
+          
+       Esta opción permite salir del menú, finalizando así la ejecución del programa.
+       

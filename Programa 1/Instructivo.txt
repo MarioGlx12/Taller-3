@@ -1,0 +1,64 @@
+ Guía para la ejecución del programa 1
+
+
+A continuación encontrará una breve guía sobre cómo ejecutar el código.
+Para la ejecución del código, se deben seguir los siguientes pasos:
+
+
+1. Llamar a las librerías.
+  
+El primer paso del programa es ejecutar las librerias necesarias para el funcionamiento del programa, entre dichas
+librerias podemos encontrar algunas como pandas o numpy.
+
+3. Ejecutar código.
+
+Hacer click en el boton de RUN o ejecutar en la interfaz de jupyter notebook para compilar y ejecutar el codigo, este
+desplegará un menú de opciones el cual es bastante intuivo de usar, puesto que nos da las indicaciones de cada opción
+y basta unicamente con escribir la opción que se desee emplear.
+
+5. Elegir opciones.
+
+Como se menciona anteriormente, al ejecutar el programa se visualizará un menu con 5 opciones las cuales son las siguientes:
+
+  1. "Guardar gapminder".
+
+En esta opción primeramente se indentifica el 10% de las columnas lifeExp, pop y gdpPercap, luesgo se selecionan 
+aleatoriamente dicho indices a lo largo de cada columna, es decir, que se seleccionaran indiccen al azar
+correspondientes al 10% de capa columa. Una vez se tengan dicho indices se procederá a reemplazarlos por las siglas
+NA (valor no asignado por sus siglas en ingles) y posteriormente exporta los datos de gapminder con el 10% de las 
+columas anteriormente mencionadas con valor no asginado (NA) en un archivo xlsx.
+
+  2. "Importar gapminder.xlsx".
+
+Esta opción permite cargar el archivo exportado en la opción anterior alojandolo en una variable llamada GapMinder
+la cual se imprimirá para confirmar que el archivo gapminder.xlsx se ha importado correctamente.
+
+  3. "Graficar el diagrama de dispersión lifeExp vs pop".
+
+Esta opción primeramente repite la opción 2 para cargar los datos de gapminder.xslx y con dichos datos 
+grafica el diagrama de dispersión de lifeExp vs pop.
+
+Al ejecutar esta opción es normal que aparezca un mensaje de alerta en la consola pero podemos ignorar dicha advertencia.
+
+  4. " Graficar el diagrama de dispersión gdpPercap vs pop".
+
+Esta opción primeramente repite la opción 2 para cargar los datos de gapminder.xslx y con dichos datos 
+grafica el diagrama de dispersión de gdPercap vs pop.
+
+  5. "Graficar los diagramas de cajas de la variable gdpPercap discriminados por continentes desde 1990 a 2007".
+
+Esta opción primeramente repite la opción 2 para cargar los datos de gapminder.xslx, realiza un filtro donde se seleccionan
+los datos comprendidos en las años 1990 a 2007, una vez filtrados se grafican en el respectivo diagrama de cajas.
+
+  0. "Salir."
+
+Esta opción nos permite salir del menú, deteniendo así la ejecución del programa.
+
+-----------------------------------------------------------------------------------------------------------------------------
+Notas:
+
+- Es importante asegurarse de tener todas las librerias instaladas todas las librerias previamente mencionadas para el 
+correcto funcionamiento del programa.
+
+- Es usual que al seleccionar la opción 5 no se visulice correctamente el diagrama de cajas, por lo que basta con salir
+del menú con la opción 0 para poder visualizarla correctamente.
